@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomTabBar">
+        <attr name="textColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="textSelectColor" format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="WaveProgress">
+        <!-- 是否开启抗锯齿 -->
+        <attr name="antiAlias" />
+        <!-- 深色水波动画时间 -->
+        <attr name="darkWaveAnimTime" format="integer" />
+        <!-- 浅色水波动画时间 -->
+        <attr name="lightWaveAnimTime" format="integer" />
+        <!-- 最大值 -->
+        <attr name="maxValue" />
+        <!-- 当前值 -->
+        <attr name="value" />
+        <attr name="valueColor" />
+        <attr name="valueSize" />
+        <!-- 绘制内容相应的提示语 -->
+        <attr name="hint" />
+        <attr name="hintSize" />
+        <attr name="hintColor" />
+        <!-- 圆环宽度 -->
+        <attr name="circleWidth" format="dimension" />
+        <!-- 圆环颜色 -->
+        <attr name="circleColor" format="color|reference" />
+        <!-- 背景圆环颜色 -->
+        <attr name="bgCircleColor" format="color|reference" />
+        <!-- 锁定水波不随圆环进度改变，默认锁定在50%处 -->
+        <attr name="lockWave" format="boolean" />
+        <!-- 水波数量 -->
+        <attr name="waveNum" format="integer" />
+        <!-- 水波高度，峰值和谷值之和 -->
+        <attr name="waveHeight" format="dimension" />
+        <!-- 深色水波颜色 -->
+        <attr name="darkWaveColor" format="color|reference" />
+        <!-- 是否显示浅色水波 -->
+        <attr name="showLightWave" format="boolean" />
+        <!-- 浅色水波颜色 -->
+        <attr name="lightWaveColor" format="color|reference" />
+        <!-- 浅色水波的方向 -->
+        <attr name="lightWaveDirect" format="enum">
+            <enum name="L2R" value="0" />
+            <enum name="R2L" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="UnderlineDevider">
+        <attr name="devide_count" format="integer" />
+        <attr name="devide_color" format="color"/>
+    </declare-styleable>
+</resources>

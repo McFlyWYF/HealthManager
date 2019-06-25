@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eric.cookbook.activity.FoodsListActivity">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/disease_variety"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text="心脏病推荐食谱"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="18sp" />-->
+
+
+    <!--</RelativeLayout>-->
+
+    <com.wj.refresh.PullRefreshLayout
+        android:id="@+id/swipe_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:refreshMode="both">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/foods_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.wj.refresh.PullRefreshLayout>
+
+
+</LinearLayout>

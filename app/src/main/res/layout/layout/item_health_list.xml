@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="5dp"
+    app:cardElevation="2dp">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/health_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:transitionName="@string/share_item"
+            tools:targetApi="lollipop"/>
+
+        <TextView
+            android:id="@+id/health_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/health_iv"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="14sp"
+            tools:text="泰式柠檬蒸鲈鱼"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/menu_imtro_tv"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/menu_title_tv"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_toRightOf="@+id/menu_album_iv"-->
+            <!--android:ellipsize="end"-->
+            <!--android:maxLines="3"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+            <!--android:textSize="14sp"-->
+            <!--tools:text="菜谱来自电视节目：中华美食频道的《千味坊》 JIMMY老师教的菜，都是一些简单又美味的家常菜，这几天每天中午12点都会收看他的节目。 JIMMY老师教大家怎么看鱼是否新鲜,如果蒸出来后鱼的眼珠是鼓出来的就是新鲜 的.相反眼珠藏在里面就代表不新鲜了."/>-->
+    </LinearLayout>
+</android.support.v7.widget.CardView>

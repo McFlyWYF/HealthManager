@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_statusbar"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/btn_search_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/common_white_bg_round"
+            android:gravity="center_vertical"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:src="@drawable/home_search" />
+
+            <com.example.a16500.myapplication.ui.common.CleanEditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:hint="搜索菜谱"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="8dp"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorGray"
+                android:textSize="14dp"></com.example.a16500.myapplication.ui.common.CleanEditText>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_search_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="搜索"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_search_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:drawablePadding="10dp"
+        android:text="历史记录"
+        android:textColor="#333333" />
+
+    <View style="@style/line_horizontal_style" />
+
+    <ListView
+        android:id="@+id/listView_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"></ListView>
+
+
+    <LinearLayout
+        android:id="@+id/ll_search_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_selector_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_search_empty" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:text="清空历史记录" />
+    </LinearLayout>
+</LinearLayout>

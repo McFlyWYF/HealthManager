@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">健康管家</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="heartRate">心率</string>
+    <string name="heateRateTest">心率监测</string>
+    <string name="recommendFoods">推荐菜谱</string>
+
+    <string name="title_home">首页</string>
+    <string name="title_myhome">MyHome</string>
+    <string name="title_dashboard">分类</string>
+    <string name="title_notifications">我</string>
+    <string name="retry_refresh_news">点击重新加载</string>
+    <string name="menu_list_title">菜单列表</string>
+    <string name="menu_detail_title">菜单详情</string>
+    <string name="share_item">element_share</string>
+    <string name="loading">加载中...</string>
+    <string name="load_over">客官，菜都上齐了QAQ</string>
+    <string name="find_tv">发现美食</string>
+    <string name="health_tv">健康饮食</string>
+    <string name="hot_menu">热门菜谱</string>
+    <string name="exit_if_repeat">再按一次退出程序</string>
+    <string name="dark_theme">黑色主题</string>
+    <string name="light_theme">亮色主题</string>
+    <string name="custom_theme">普通主题</string>
+    <string name="menu_burden">主料：</string>
+    <string name="menu_ingredient">配料：</string>
+
+    <string name="entry">立即体验</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:title="心率监测"
+        android:titleTextColor="#ffffff" />
+
+    <SurfaceView
+        android:id="@+id/id_preview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" />
+
+    <LinearLayout
+        android:id="@+id/id_linearLayout_graph"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heartrate"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/heartRate"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/id_tv_heart_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:textColor="@color/blue"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

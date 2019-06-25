@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB7299</color>
+    <color name="colorPrimaryDark">#FB7299</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#FFF0F0F0</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="primary_text">#de000000</color>
+    <color name="bg_color">#e9e9e9</color>
+
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#dd000000</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/colorAccent</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="common_line_color">#F1F1F1</color>
+
+
+    <color name="primary">#000000</color>
+    <color name="primary_dark">#000000</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#000000</color>
+    <color name="primary_text_late">#f59870</color>
+    <color name="secondary_text">#ffc6c6</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#6163ce</color>
+    <color name="backgroundDark">#353554</color>
+
+    <color name="font_color">#666666</color>
+
+    <color name="dark">#803cbcb7</color>
+    <color name="light">#800de6e8</color>
+
+    <color name="green">#00FF00</color>
+    <color name="blue">#EE9A00</color>
+    <color name="red">#EE0000</color>
+
+    <integer-array name="gradient_arc_color">
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/red</item>
+    </integer-array>
+
+</resources>
