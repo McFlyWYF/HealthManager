@@ -6,9 +6,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-/**
- * Created by Administrator on 2017/4/8.
- */
 
 public class SmoothNestedScrollView extends NestedScrollView {
         private int downX;

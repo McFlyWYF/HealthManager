@@ -2,9 +2,6 @@ package com.eric.cookbook.utils;
 
 import com.eric.cookbook.Constants;
 
-/**
- * Created by Administrator on 2017/4/15.
- */
 
 public class UrlUtil {
 

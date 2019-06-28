@@ -7,9 +7,6 @@ import com.eric.cookbook.network.OkHttpCallback;
 
 import java.util.Map;
 
-/**
- * Created by Administrator on 2017/4/4.
- */
 
 public class MenuDetailContract {
     /**

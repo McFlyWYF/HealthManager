@@ -3,9 +3,6 @@ package com.eric.cookbook.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by xialo on 2016/7/25.
- */
 public class SharedPreferencesUtil {
 
     private static final String spFileName = "welcomePage";

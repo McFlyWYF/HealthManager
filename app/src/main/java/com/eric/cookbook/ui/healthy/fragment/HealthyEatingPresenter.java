@@ -6,9 +6,6 @@ import com.eric.cookbook.network.OkHttpCallback;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Administrator on 2017/4/15.
- */
 
 public class HealthyEatingPresenter implements HealthyEatingContracts.IHealthyEatingPresenter {
 

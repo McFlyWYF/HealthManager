@@ -16,9 +16,6 @@ import com.eric.cookbook.R;
 
 import butterknife.ButterKnife;
 
-/**
- * Created by Administrator on 2017/3/26.
- */
 
 public class MineFragment extends Fragment {
 

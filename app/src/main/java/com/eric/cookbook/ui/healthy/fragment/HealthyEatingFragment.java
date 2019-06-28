@@ -34,9 +34,7 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by Administrator on 2017/4/15.
- */
+
 
 @SuppressLint("ValidFragment")
 public class HealthyEatingFragment extends Fragment implements HealthyEatingContracts.IHealthyEatingView,MultiItemTypeAdapter.OnItemClickListener{

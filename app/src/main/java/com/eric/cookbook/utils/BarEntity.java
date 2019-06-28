@@ -1,8 +1,5 @@
 package com.eric.cookbook.utils;
 
-/**
- * Created by 16500 on 2019/5/31.
- */
 
 public class BarEntity {
     /**

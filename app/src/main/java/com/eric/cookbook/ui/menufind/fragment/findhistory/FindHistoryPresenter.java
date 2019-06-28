@@ -7,9 +7,6 @@ import com.eric.cookbook.bean.preference.OnHistoryListener;
 
 import java.util.ArrayList;
 
-/**
- * Created by Administrator on 2017/4/12.
- */
 
 public class FindHistoryPresenter implements FindHistoryContract.IFindHistoryPresenter {
 

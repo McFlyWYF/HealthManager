@@ -3,9 +3,6 @@ package com.eric.cookbook.utils;
 import android.content.Context;
 import android.widget.Toast;
 
-/**
- * Created by Administrator on 2017/5/7.
- */
 
 public class ToastUtil {
     private static Toast mToast;

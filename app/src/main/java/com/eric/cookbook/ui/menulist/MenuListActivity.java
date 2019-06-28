@@ -38,9 +38,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 
-/**
- * Created by Administrator on 2017/3/31.
- */
+
 
 public class MenuListActivity extends AppCompatActivity implements MenuListContract.IMenuListView, SwipeRefreshLayout.OnRefreshListener,CommonAdapter.OnItemClickListener {
 

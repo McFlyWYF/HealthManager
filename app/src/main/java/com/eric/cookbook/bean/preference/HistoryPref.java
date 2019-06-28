@@ -11,9 +11,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
 
-/**
- * Created by Administrator on 2017/4/11.
- */
+
 
 public class HistoryPref extends BaseHistoryPref {
     private Context context;

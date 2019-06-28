@@ -6,9 +6,7 @@ import com.eric.cookbook.bean.preference.BaseHistoryPref;
 import com.eric.cookbook.bean.preference.HistoryPref;
 import com.eric.cookbook.bean.preference.OnHistoryListener;
 
-/**
- * Created by Administrator on 2017/4/12.
- */
+
 
 public class FindHistoryModel implements FindHistoryContract.IFindHistoryModel {
 

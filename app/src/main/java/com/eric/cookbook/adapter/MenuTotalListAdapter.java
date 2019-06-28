@@ -16,9 +16,6 @@ import com.eric.cookbook.bean.MenuListBean;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Administrator on 2017/4/9.
- */
 
 public class MenuTotalListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

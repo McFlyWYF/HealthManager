@@ -25,9 +25,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by Administrator on 2017/4/10.
- */
+
 
 public class MenuFindActivity extends AppCompatActivity implements MenuFindContract.IMenuFindView, FindHistoryFragment.OnSearchCallback{
 

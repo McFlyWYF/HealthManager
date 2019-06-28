@@ -48,9 +48,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by Administrator on 2017/3/26.
- */
+
 
 public class HomeFragment extends Fragment implements HomeContract.IHomeView, CommonAdapter.OnItemClickListener{
 //    @Bind(R.id.toolbar)

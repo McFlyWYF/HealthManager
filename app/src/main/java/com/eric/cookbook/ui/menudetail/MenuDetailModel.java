@@ -15,9 +15,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by Administrator on 2017/4/5.
- */
+
 
 public class MenuDetailModel implements MenuDetailContract.IMenuDetailModel {
     @Override

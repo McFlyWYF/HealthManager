@@ -9,12 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.eric.cookbook.FoodInfoActivity;
+import com.eric.cookbook.activity.FoodInfoActivity;
 import com.eric.cookbook.R;
 
 import java.util.ArrayList;

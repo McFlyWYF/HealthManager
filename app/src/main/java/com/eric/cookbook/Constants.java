@@ -1,8 +1,5 @@
 package com.eric.cookbook;
 
-/**
- * Created by Administrator on 2017/3/28.
- */
 
 public class Constants {
     //API常量
@@ -26,7 +23,7 @@ public class Constants {
 public static final String MENU_TITLE = "menu_title";
 
     //特殊参数值
-    public static final String APP_KEY_VALUE = "e24cd9cfee0bd1b76fa40846722de281";
+    public static final String APP_KEY_VALUE = "e24cd9cfee0bd1b76fa40846722de28a";
     public static final String MENU_CID_VALUE = "";
     public static final String MENU_SEARCH_CONTENT_VALUE = "";
     public static final String RESULT_DATA_TYPE_VALUE = "";

@@ -20,9 +20,6 @@ import com.eric.cookbook.R;
 
 import java.util.List;
 
-/**
- * Created by 16500 on 2019/5/31.
- */
 
 public class BottomTabBar extends LinearLayout {
     private FragmentManager manager;

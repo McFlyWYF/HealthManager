@@ -5,9 +5,6 @@ import retrofit2.http.Headers;
 import retrofit2.http.Path;
 import rx.Observable;
 
-/**
- * Created by Administrator on 2017/5/5.
- */
 
 public interface HealthApi {
     @Headers({

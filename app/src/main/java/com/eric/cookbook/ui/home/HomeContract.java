@@ -8,9 +8,7 @@ import com.eric.cookbook.network.OkHttpCallback;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Administrator on 2017/4/7.
- */
+
 
 public class HomeContract {
     interface IHomeView{

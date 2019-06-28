@@ -4,9 +4,6 @@ import android.content.Context;
 import android.graphics.Paint;
 import android.view.View;
 
-/**
- * Created by littlejie on 2017/huluobu/22.
- */
 
 public class MiscUtil {
 

@@ -8,9 +8,6 @@ import com.eric.cookbook.R;
 import com.vansuita.materialabout.builder.AboutBuilder;
 import com.vansuita.materialabout.views.AboutView;
 
-/**
- * Created by Administrator on 2017/5/7.
- */
 
 public class AboutHelper{
 

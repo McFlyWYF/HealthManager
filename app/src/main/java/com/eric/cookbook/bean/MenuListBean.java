@@ -2,9 +2,6 @@ package com.eric.cookbook.bean;
 
 import java.util.List;
 
-/**
- * Created by Administrator on 2017/4/1.
- */
 
 public class MenuListBean {
 

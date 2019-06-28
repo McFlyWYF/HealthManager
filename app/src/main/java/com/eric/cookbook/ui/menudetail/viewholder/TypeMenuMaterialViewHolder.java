@@ -7,9 +7,7 @@ import com.eric.cookbook.R;
 import com.eric.cookbook.bean.MenuMaterialBean;
 
 
-/**
- * Created by Administrator on 2017/4/6.
- */
+
 
 public class TypeMenuMaterialViewHolder extends TypeAbsViewHolder<MenuMaterialBean> {
     TextView material_name_tv;

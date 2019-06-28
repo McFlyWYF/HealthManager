@@ -36,9 +36,7 @@ import butterknife.OnClick;
 import cn.sharesdk.framework.ShareSDK;
 import cn.sharesdk.onekeyshare.OnekeyShare;
 
-/**
- * Created by Administrator on 2017/4/4.
- */
+
 
 public class MenuDetailActivity extends AppCompatActivity implements MenuDetailContract.IMenuDetailView {
     @Bind(R.id.toolbar)

@@ -17,9 +17,7 @@ import com.eric.cookbook.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by Administrator on 2017/5/5.
- */
+
 
 public class HealthDetailActivity extends AppCompatActivity implements HealthDetailContract.IHealthDetailView {
     @Bind(R.id.progress)

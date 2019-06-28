@@ -9,9 +9,6 @@ import com.eric.cookbook.bean.TitleBean;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by Administrator on 2017/4/7.
- */
 
 public class TypeTitleViewHolder extends TypeAbsViewHolder<TitleBean> {
     @Bind(R.id.rv_title_tv)

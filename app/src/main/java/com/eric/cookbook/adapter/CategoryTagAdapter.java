@@ -13,9 +13,6 @@ import com.zhy.view.flowlayout.TagAdapter;
 
 import java.util.List;
 
-/**
- * Created by Administrator on 2017/3/27.
- */
 
 class CategoryTagAdapter extends TagAdapter<CookCategory.ResultBean.ListBean> {
     private LayoutInflater mInflater;

@@ -12,10 +12,6 @@ import android.widget.EditText;
 
 import com.eric.cookbook.R;
 
-/**
- * Created by Administrator on 2017/4/10.
- */
-
 public class CleanEditText extends EditText implements View.OnFocusChangeListener {
 
     //EditText右侧的删除按钮

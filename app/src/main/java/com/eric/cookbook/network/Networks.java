@@ -23,9 +23,6 @@ import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
-/**
- * Created by Administrator on 2017/3/28.
- */
 
 public class Networks {
     private static CookApi cookApi;

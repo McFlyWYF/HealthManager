@@ -7,9 +7,6 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-/**
- * Created by Administrator on 2017/5/6.
- */
 
 public class NetUtil {
     private NetUtil() {

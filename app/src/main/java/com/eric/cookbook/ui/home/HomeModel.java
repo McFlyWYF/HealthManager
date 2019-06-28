@@ -14,9 +14,6 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by Administrator on 2017/4/7.
- */
 
 public class HomeModel implements HomeContract.IHomeModel {
     @Override

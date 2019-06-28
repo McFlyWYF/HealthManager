@@ -33,9 +33,7 @@ import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by Administrator on 2017/3/26.
- */
+
 
 public class SortFragment extends Fragment {
 

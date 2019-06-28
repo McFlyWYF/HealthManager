@@ -1,8 +1,6 @@
 package com.eric.cookbook.utils;
 
-/**
- * Created by littlejie on 2017/huluobu/26.
- */
+
 public class Constant {
 
     public static final boolean ANTI_ALIAS = true;

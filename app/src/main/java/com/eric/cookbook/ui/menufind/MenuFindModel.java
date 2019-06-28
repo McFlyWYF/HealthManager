@@ -5,9 +5,6 @@ import android.content.Context;
 import com.eric.cookbook.bean.preference.BaseHistoryPref;
 import com.eric.cookbook.bean.preference.HistoryPref;
 
-/**
- * Created by Administrator on 2017/4/11.
- */
 
 public class MenuFindModel implements MenuFindContract.IMenuFindModel {
 

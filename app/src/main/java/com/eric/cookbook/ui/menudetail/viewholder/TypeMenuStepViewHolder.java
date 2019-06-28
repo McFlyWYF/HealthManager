@@ -9,10 +9,6 @@ import com.bumptech.glide.Glide;
 import com.eric.cookbook.R;
 import com.eric.cookbook.bean.MenuListBean;
 
-/**
- * Created by Administrator on 2017/4/6.
- */
-
 public class TypeMenuStepViewHolder extends TypeAbsViewHolder<MenuListBean.ResultBean.DataBean.StepsBean> {
     TextView step_tv;
     ImageView step_iv;

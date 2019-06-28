@@ -106,7 +106,7 @@
         <activity
             android:name=".activity.RegisterActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".FoodInfoActivity"
+        <activity android:name=".activity.FoodInfoActivity"
             android:theme="@style/AppTheme"></activity>
     </application>
 

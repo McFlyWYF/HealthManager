@@ -15,9 +15,6 @@ import com.eric.cookbook.ui.healthy.fragment.HealthyEatingFragment;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by Administrator on 2017/4/15.
- */
 
 public class HealthyEatingActivity extends AppCompatActivity {
 

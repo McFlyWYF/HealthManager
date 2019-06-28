@@ -10,12 +10,8 @@ import retrofit2.http.Header;
 import retrofit2.http.QueryMap;
 import rx.Observable;
 
-/**
- * Created by Administrator on 2017/3/28.
- */
-
 public interface CookApi {
-    @GET("category?parentid=&dtype=&key=e24cd9cfee0bd1b76fa40846722de281")
+    @GET("category?parentid=&dtype=&key=e24cd9cfee0bd1b76fa40846722de28a")
     Observable<CookCategory> getCookCategory(@Header("Cache-Control") String cacheControl);
 
     @GET("index")

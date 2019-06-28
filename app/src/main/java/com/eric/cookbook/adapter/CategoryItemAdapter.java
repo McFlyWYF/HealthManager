@@ -15,9 +15,6 @@ import com.zhy.view.flowlayout.TagFlowLayout;
 
 import java.util.List;
 
-/**
- * Created by Administrator on 2017/3/26.
- */
 
 public class CategoryItemAdapter extends CommonAdapter<CookCategory.ResultBean> {
 

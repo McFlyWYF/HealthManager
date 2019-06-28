@@ -17,9 +17,6 @@ import com.eric.cookbook.utils.SharedPreferencesUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by xialo on 2016/7/25.
- */
 public class WelcomeGuideActivity extends Activity implements View.OnClickListener {
     private ViewPager vp;
     private GuideViewPagerAdapter adapter;

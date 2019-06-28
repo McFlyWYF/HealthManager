@@ -2,9 +2,7 @@ package com.eric.cookbook.ui.menufind;
 
 import android.content.Context;
 
-/**
- * Created by Administrator on 2017/4/11.
- */
+
 
 public class MenuFindPresenter implements MenuFindContract.IMenuFindPresenter {
     private MenuFindContract.IMenuFindModel menuFindModel;

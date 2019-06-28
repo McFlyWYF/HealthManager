@@ -5,9 +5,6 @@ import android.content.Context;
 
 import cn.sharesdk.framework.ShareSDK;
 
-/**
- * Created by Administrator on 2017/3/26.
- */
 
 public class App extends Application {
 

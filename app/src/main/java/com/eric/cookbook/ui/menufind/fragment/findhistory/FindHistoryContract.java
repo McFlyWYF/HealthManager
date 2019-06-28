@@ -5,9 +5,7 @@ import com.eric.cookbook.bean.preference.OnHistoryListener;
 
 import java.util.ArrayList;
 
-/**
- * Created by Administrator on 2017/4/11.
- */
+
 
 public class FindHistoryContract {
     interface IFindHistoryView{

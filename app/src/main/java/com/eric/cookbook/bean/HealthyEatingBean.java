@@ -1,8 +1,5 @@
 package com.eric.cookbook.bean;
 
-/**
- * Created by Administrator on 2017/4/15.
- */
 
 public class HealthyEatingBean {
 
