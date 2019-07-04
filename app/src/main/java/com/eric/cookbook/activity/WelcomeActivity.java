@@ -14,7 +14,6 @@ import android.widget.ImageView;
 import com.eric.cookbook.R;
 import com.eric.cookbook.ui.MainActivity;
 import com.eric.cookbook.utils.SharedPreferencesUtil;
-import com.squareup.haha.perflib.Main;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

@@ -35,7 +35,7 @@ public class StepService extends Service{
     private StepValuePassListener mValuePassListener = new StepValuePassListener() {
         @Override
         public void stepChange(int steps) {
-            mEdit.putString("steps", steps + "");
+            mEdit.putString("step", steps + "");
             mEdit.commit();
             mCallback.updateUi();
         }
@@ -84,7 +84,7 @@ public class StepService extends Service{
         this.mSensorManager.unregisterListener(this.mStepDetector);
         Toast.makeText(this, "stop", Toast.LENGTH_SHORT).show();
         this.wakeLock.release();
-        mEdit.putString("steps", "0");
+        mEdit.putString("step", "0");
         mEdit.commit();
         super.onDestroy();
     }
@@ -95,7 +95,7 @@ public class StepService extends Service{
 
     //重置StepCount
     public void resetValues() {
-        mEdit.putString("steps","0");
+        mEdit.putString("step","0");
         mEdit.commit();
         this.mStepCount.setSteps(0);
     }

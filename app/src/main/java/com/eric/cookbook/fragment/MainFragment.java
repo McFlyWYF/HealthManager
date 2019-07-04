@@ -19,14 +19,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.eric.cookbook.activity.EatStatisticActivity;
 import com.eric.cookbook.R;
 import com.eric.cookbook.activity.FoodsRecommendActivity;
+import com.eric.cookbook.activity.SendMessageActivity;
 import com.eric.cookbook.step.StepService;
 import com.eric.cookbook.step.UpdateUiCallBack;
 import com.eric.cookbook.view.WaveProgress;
@@ -52,7 +53,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
     private TextView stepsView, calorieView, metersView,stepssView;
 
-    private ImageButton setSteps, heartRate, eatStatistic, recommendFoods;
+    private Button setSteps, heartRate, eatStatistic, recommendFoods,Sos;
 
 
     private StepService mService;
@@ -64,13 +65,13 @@ public class MainFragment extends Fragment implements View.OnClickListener {
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
-            meters = Integer.valueOf(mySharedPreferences.getString("steps", "0"));
+            meters = Integer.valueOf(mySharedPreferences.getString("step", "0"));
             calorie = (int) (60 * meters * 0.8214);
-            waveCount = Float.valueOf(mySharedPreferences.getString("steps", "0"));
+            waveCount = Float.valueOf(mySharedPreferences.getString("step", "0"));
             waveCount = waveCount / 10;
 
             if (msg.what == 1) {
-                stepsView.setText(mySharedPreferences.getString("steps", "0"));
+                stepsView.setText(mySharedPreferences.getString("step", "0"));
                 calorieView.setText("卡路里：" + calorie + "卡");
                 metersView.setText("里程数：" + meters + "M");
                 waveProgress.setValue(waveCount);
@@ -94,26 +95,15 @@ public class MainFragment extends Fragment implements View.OnClickListener {
         heartRate = view.findViewById(R.id.heart_rate_btn);
         eatStatistic = view.findViewById(R.id.eat_statistic_btn);
         recommendFoods = view.findViewById(R.id.recommend_foods_btn);
+        Sos = view.findViewById(R.id.sos_btn);
+
 
         setSteps.setOnClickListener(this);
         heartRate.setOnClickListener(this);
         eatStatistic.setOnClickListener(this);
         recommendFoods.setOnClickListener(this);
+        Sos.setOnClickListener(this);
 
-
-//        UltraViewPager ultraViewPager = (UltraViewPager)view.findViewById(R.id.ultra_viewpager);
-//        ultraViewPager.setScrollMode(UltraViewPager.ScrollMode.HORIZONTAL);
-//        PagerAdapter adapter = new UltraPagerAdapter(false);
-//        ultraViewPager.setAdapter(adapter);
-//        ultraViewPager.setMultiScreen(0.5f);
-//        ultraViewPager.setItemRatio(1.0f);
-//        ultraViewPager.setAutoMeasureHeight(true);
-//
-//        ultraViewPager.initIndicator();
-//        ultraViewPager.getIndicator().build();
-//
-//        ultraViewPager.setInfiniteLoop(true);
-//        ultraViewPager.setAutoScroll(2000);
         return view;
     }
 
@@ -137,7 +127,7 @@ public class MainFragment extends Fragment implements View.OnClickListener {
 
     public void onResume() {
         super.onResume();
-        stepsView.setText(mySharedPreferences.getString("steps", "0"));
+        stepsView.setText(mySharedPreferences.getString("step", "0"));
         if (this.mIsRunning) {
             bindStepService();
         }
@@ -202,6 +192,11 @@ public class MainFragment extends Fragment implements View.OnClickListener {
             case R.id.recommend_foods_btn:
                 Intent intent2 = new Intent(getActivity(), FoodsRecommendActivity.class);
                 startActivity(intent2);
+                break;
+
+            case R.id.sos_btn:
+                Intent intent3 = new Intent(getActivity(),SendMessageActivity.class);
+                startActivity(intent3);
                 break;
             default:
                 break;

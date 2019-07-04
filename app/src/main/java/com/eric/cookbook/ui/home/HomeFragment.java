@@ -7,7 +7,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -44,7 +43,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -153,9 +151,9 @@ public class HomeFragment extends Fragment implements HomeContract.IHomeView, Co
 
         banner = (Banner) view.findViewById(R.id.banner);
         images = new ArrayList<Integer>();
-        images.add(R.drawable.foods_one);
-        images.add(R.drawable.foods_two);
-        images.add(R.drawable.foods_three);
+        images.add(R.drawable.foodone);
+        images.add(R.drawable.foodstwo);
+        images.add(R.drawable.foodthree);
         banner.setImages(images).setImageLoader(new GlideImageLoader()).start();
     }
 

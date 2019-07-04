@@ -49,5 +49,8 @@
         <item name="colorControlHighlight">@color/divider</item>
     </style>
 
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/message_background</item>
+    </style>
 
 </resources>

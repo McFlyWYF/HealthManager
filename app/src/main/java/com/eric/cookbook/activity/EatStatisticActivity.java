@@ -63,6 +63,8 @@ public class EatStatisticActivity extends AppCompatActivity implements View.OnCl
 
     private boolean flag = false;
 
+    PieChartView pieChartView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -85,13 +87,14 @@ public class EatStatisticActivity extends AppCompatActivity implements View.OnCl
 
         submit.setOnClickListener(this);
 
+        pieChartView = findViewById(R.id.pie_chart_view);
+
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setHomeButtonEnabled(true);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        initChartView();
 
         eathandler = new Handler() {
             @Override
@@ -176,7 +179,7 @@ public class EatStatisticActivity extends AppCompatActivity implements View.OnCl
 
     private void initChartView() {
 
-        PieChartView pieChartView = findViewById(R.id.pie_chart_view);
+
         pieChartView.addItemType(new PieChartView.ItemType("蛋白质", 12, 0xffE6B800));
         pieChartView.addItemType(new PieChartView.ItemType("热量", 63, 0xffFF9069));
         pieChartView.addItemType(new PieChartView.ItemType("糖分", 10, 0xff6495ED));
@@ -230,6 +233,7 @@ public class EatStatisticActivity extends AppCompatActivity implements View.OnCl
                     Thread signThread = new Thread(new EatHandler());
                     signThread.start();
                     showNormalDialog();
+                    initChartView();
                     protein_et.setText("");
                     hot_et.setText("");
                     sugar_et.setText("");

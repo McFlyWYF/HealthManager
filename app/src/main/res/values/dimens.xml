@@ -5,4 +5,18 @@
     <dimen name="image_height">20dp</dimen>
     <dimen name="big_medium">20sp</dimen>
     <dimen name="text_margin_drawable">8dp</dimen>
+
+    <dimen name="tv_instruction_top">50dp</dimen>
+    <dimen name="control_width">300dp</dimen>
+    <dimen name="input_height">180dp</dimen>
+    <dimen name="tv_instruction_font_size">15sp</dimen>
+    <dimen name="txt_input_marginTop">10dp</dimen>
+    <dimen name="txt_btn">20sp</dimen>
+    <dimen name="tv_marginLeft">20dp</dimen>
+    <dimen name="btn_confirm_marginTop">15dp</dimen>
+    <dimen name="check_location_font_size">15sp</dimen>
+    <dimen name="btn_close_marginTop">15dp</dimen>
+    <dimen name="btn_close_marginRight">15dp</dimen>
+
+    <dimen name="length_txt_edit">10dp</dimen>
 </resources>

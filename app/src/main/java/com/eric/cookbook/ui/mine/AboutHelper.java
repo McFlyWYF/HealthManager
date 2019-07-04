@@ -30,14 +30,14 @@ public class AboutHelper{
     public void loadAbout() {
         final FrameLayout flHolder = (FrameLayout) activity.findViewById(R.id.about);
         AboutBuilder builder = AboutBuilder.with(activity)
-                .setAppIcon(R.mipmap.ic_launcher)
+                .setAppIcon(R.mipmap.appicon)
                 .setAppName(R.string.app_name)
                 .setPhoto(R.drawable.head)
                 .setCover(R.mipmap.profile_cover)
                 .setLinksAnimated(true)
                 .setDividerDashGap(13)
-                .setName("小飞侠")
-                .setSubTitle("Mobile Developer")
+                .setName("王宇飞")
+                .setSubTitle("NUC Student")
                 .setLinksColumnsCount(4)
                 .setBrief("God helps those who help themselves")
                 .addGooglePlayStoreLink("8002078663318221363")

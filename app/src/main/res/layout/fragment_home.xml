@@ -116,99 +116,170 @@
 
     </RelativeLayout>
 
-    <LinearLayout
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="10dp">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardCornerRadius="10dp"-->
+            <!--android:padding="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/heart_rate_btn"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="260dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:src="@drawable/heartratebtnthree" />-->
+
+            <!--</RelativeLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardCornerRadius="10dp"-->
+            <!--android:padding="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/eat_statistic_btn"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="260dp"-->
+                    <!--android:layout_weight="2"-->
+                    <!--android:src="@drawable/calorie" />-->
+            <!--</RelativeLayout>-->
+
+
+        <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardCornerRadius="10dp"-->
+            <!--android:padding="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/recommend_foods_btn"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="300dp"-->
+                    <!--android:src="@drawable/recommendfoods" />-->
+
+            <!--</RelativeLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardCornerRadius="10dp"-->
+            <!--android:padding="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/set_steps_btn"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="300dp"-->
+                    <!--android:src="@drawable/step" />-->
+            <!--</RelativeLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp">
+        android:layout_height="match_parent"
+        android:background="#fcfcfc">
 
-        <android.support.v7.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp"
-            android:padding="10dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#fcfcfc"
+            android:layout_marginTop="10dp"/>
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/heart_rate_btn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/heart"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="10dp"/>
 
-                <ImageButton
-                    android:id="@+id/heart_rate_btn"
-                    android:layout_width="200dp"
-                    android:layout_height="260dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/heartratebtnthree" />
+        <Button
+            android:id="@+id/eat_statistic_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/food"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_centerInParent="true"/>
 
-            </RelativeLayout>
+        <Button
+            android:id="@+id/recommend_foods_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/foodss"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@id/eat_statistic_btn"
+            android:layout_marginTop="30dp"/>
 
-        </android.support.v7.widget.CardView>
+        <Button
+            android:id="@+id/set_steps_btn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/steps"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"/>
 
-
-        <android.support.v7.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp"
-            android:padding="10dp">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:id="@+id/eat_statistic_btn"
-                    android:layout_width="200dp"
-                    android:layout_height="260dp"
-                    android:layout_weight="2"
-                    android:src="@drawable/caloriesstatistic" />
-            </RelativeLayout>
-
-
-        </android.support.v7.widget.CardView>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp"
-            android:padding="10dp">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:id="@+id/recommend_foods_btn"
-                    android:layout_width="200dp"
-                    android:layout_height="300dp"
-                    android:src="@drawable/recommendfoods" />
-
-            </RelativeLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp"
-            android:padding="10dp">
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:id="@+id/set_steps_btn"
-                    android:layout_width="200dp"
-                    android:layout_height="300dp"
-                    android:src="@drawable/setsteps" />
-            </RelativeLayout>
-        </android.support.v7.widget.CardView>
-
-    </LinearLayout>
+        <Button
+            android:id="@+id/sos_btn"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/sos"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/set_steps_btn"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="70dp"/>
+    </RelativeLayout>
 
 </LinearLayout>

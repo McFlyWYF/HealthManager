@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">健康管家</string>
+    <string name="app_name">心宝</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="heartRate">心率</string>
@@ -27,4 +27,12 @@
     <string name="menu_ingredient">配料：</string>
 
     <string name="entry">立即体验</string>
+
+    <string name="message_txt">求助短信内容：</string>
+    <string name="check_location">发送地理位置</string>
+    <string name="phone_txt">接收短信手机：</string>
+    <string name="btn_commit_sure">确&#160;认</string>
+    <string name="btn_commit_modify">修改&#160;改</string>
+    <string name="phone_input_hint">点击手机图标选择联系人</string>
+    <string name="guide">开启所有权限</string>
 </resources>

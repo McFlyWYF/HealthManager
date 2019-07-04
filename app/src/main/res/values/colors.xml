@@ -54,4 +54,8 @@
         <item>@color/red</item>
     </integer-array>
 
+    <color name="fm_message">#F2FF82AB</color>
+    <color name="edit_message">#CCCFCFCF</color>
+    <color name="send_txt_color">#00BFFF</color>
+    <color name="edit_message_common">#CCffffff</color>
 </resources>

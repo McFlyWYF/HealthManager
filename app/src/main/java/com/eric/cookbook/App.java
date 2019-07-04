@@ -5,7 +5,9 @@ import android.content.Context;
 
 import cn.sharesdk.framework.ShareSDK;
 
-
+/**
+ * 分享
+ */
 public class App extends Application {
 
     private static App INSTANCE;

@@ -147,7 +147,7 @@ public class WelcomeGuideActivity extends Activity implements View.OnClickListen
         Intent intent = new Intent(WelcomeGuideActivity.this,
                 WelcomeActivity.class);
         startActivity(intent);
-        SharedPreferencesUtil.putBoolean(WelcomeGuideActivity.this, SharedPreferencesUtil.FIRST_OPEN, false);
+                SharedPreferencesUtil.putBoolean(WelcomeGuideActivity.this, SharedPreferencesUtil.FIRST_OPEN, false);
         finish();
     }
 

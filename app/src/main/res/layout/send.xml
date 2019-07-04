@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg_last"   >
+
+    <Button
+        android:id="@+id/btn_send_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_send_style"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:text="一键\n求救"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/btn_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用说明"
+            android:textColor="@color/send_txt_color"
+            android:textStyle="bold"
+            android:layout_weight = "1"
+            android:background="@drawable/btn_style_cp"
+            />
+        <Button
+            android:id="@+id/btn_set_message"
+            android:text="设置短信"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btn_instruction"
+            android:textColor="@color/send_txt_color"
+            android:textStyle="bold"
+            android:layout_weight = "1"
+            android:background="@drawable/btn_style_cp"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_mark"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="意见反馈"-->
+            <!--android:layout_toRightOf="@id/btn_set_message"-->
+            <!--android:textColor="@color/send_txt_color"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_weight = "1"-->
+            <!--android:background="@drawable/btn_style_cp"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/btn_share"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="分享应用"-->
+            <!--android:layout_toRightOf="@id/btn_mark"-->
+            <!--android:textColor="@color/send_txt_color"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_weight = "1"-->
+            <!--android:background="@drawable/btn_style_cp"-->
+            <!--/>-->
+    </LinearLayout>
+
+
+</RelativeLayout>

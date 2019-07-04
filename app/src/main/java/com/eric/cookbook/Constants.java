@@ -1,6 +1,10 @@
 package com.eric.cookbook;
 
 
+/**
+ * API常量
+ */
+
 public class Constants {
     //API常量
     public static final String BASE_URL = "http://apis.juhe.cn/cook/";

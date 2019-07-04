@@ -24,6 +24,12 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
 }
 
 dependencies {
@@ -61,6 +67,7 @@ dependencies {
     compile 'com.zhy:base-rvadapter:3.0.3'
     compile 'com.zhy:base-adapter:3.0.3'
     compile 'com.zhy:flowlayout-lib:1.0.3'
+    //爬取网页
     compile 'org.jsoup:jsoup:1.10.2'
     compile 'com.squareup.retrofit2:converter-scalars:2.0.0'
     compile 'com.github.jrvansuita:MaterialAbout:0.1.2'
@@ -85,12 +92,21 @@ dependencies {
 
     implementation 'com.jyn.verificationcodeview:verificationcodeview:1.0.0'
     implementation 'com.github.luweibin3118:PieChartView:v1.1.2'
+
     //recyclerview
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
-
     implementation 'cn.lemon:RefreshRecyclerView:2.0.0'
     implementation 'com.android.support:recyclerview-v7:26.1.0'
 
+    //刷新
     implementation 'com.wj.refresh:PullRefreshLayout:1.0.1'
+
+    implementation 'com.orhanobut:logger:1.15'
+
+    //百度定位
+    implementation files('libs/locSDK_6.23.jar')
+    implementation files('libs/pgyer_sdk_2.2.2.jar')
+    implementation files('libs/sqlitejdbc-v056.jar')
+    implementation 'com.githang:status-bar-compat:latest.integration'  //透明状态栏
 
 }

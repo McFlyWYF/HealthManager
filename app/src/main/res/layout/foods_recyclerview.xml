@@ -22,7 +22,7 @@
                 android:id="@+id/foods_imageview"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:src="@drawable/huluobu"/>
+                android:src="@drawable/huxidao"/>
 
             <TextView
                 android:id="@+id/foods_text"
